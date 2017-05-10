@@ -4,7 +4,9 @@
 
 ## Demo project for CI/CD 
 
-This is simple Demo project to demonstrate setting up of Continous Intgeration(CI), Continous Deployment(CD) in a scala project. Here I use travis-ci and coverall to set up the CI part and docker for CD.
+This is simple Demo project to demonstrate setting up of Continous Intgeration(CI), Continous Deployment(CD) in a scala project.
+
+Here I use Travis for CI and docker for automated build
 
 ## Setting Up Travis CI
 
@@ -39,4 +41,4 @@ after_success:
     - sbt coveralls
 ```
 
-Continous Deployment using docker is not yet done for this repo . Its work is in progress
+Automated build using docker is not yet done for this repo . Its work is in progress
